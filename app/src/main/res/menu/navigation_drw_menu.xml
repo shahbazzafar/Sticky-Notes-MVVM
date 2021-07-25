@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!--        <item-->
+    <!--            android:id="@+id/all_docu"-->
+    <!--            android:icon="@drawable/ic_docx"-->
+    <!--            android:title="All Docx Files"-->
+    <!--            />-->
+    <!--        <item-->
+    <!--            android:id="@+id/favourite"-->
+    <!--            android:icon="@drawable/ic_favourite"-->
+    <!--            android:title="Favourite" />-->
+
+    <item android:title="Support Us">
+        <menu>
+            <item
+                android:id="@+id/rate_app"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/share_app"
+                android:icon="@drawable/ic_share"
+                android:title="Share App" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/more_app"
+            android:icon="@drawable/ic_more_apps"
+            android:title="More Apps"
+            />
+        <item
+            android:id="@+id/exit_app"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit Aapp" />
+        <item
+            android:id="@+id/uninstal_app"
+            android:icon="@drawable/ic_uninstall"
+            android:title="Uninstall App" />
+<!--        <item-->
+<!--            android:id="@+id/privacy_policy"-->
+<!--            android:icon="@drawable/ic_privacy"-->
+<!--            android:title="Privacy Policy"-->
+<!--            />-->
+    </group>
+
+</menu>
